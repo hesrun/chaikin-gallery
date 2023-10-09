@@ -131,101 +131,101 @@ $(document).ready(function () {
         }
     );
 
-    $(".product__block").hover(
-        function () {
-            // задаем функцию при наведении курсора на элемент
+    // $(".product__block").hover(
+    //     function () {
+    //         // задаем функцию при наведении курсора на элемент
 
-            $(".product__inner").css("opacity", "1");
-            $(".product__block img").css("transform", "scale(1.1)");
-            $(".product__block img").css("transition", "0.4s");
-        },
-        function () {
-            // задаем функцию, которая срабатывает, когда указатель выходит из элемента
-            $(".product__inner").css("opacity", "0");
-            $(".product__block img").css("transform", "scale(1)");
-            $(".product__block img").css("transition", "0.4s");
-        }
-    );
+    //         $(".product__inner").css("opacity", "1");
+    //         $(".product__block img").css("transform", "scale(1.1)");
+    //         $(".product__block img").css("transition", "0.4s");
+    //     },
+    //     function () {
+    //         // задаем функцию, которая срабатывает, когда указатель выходит из элемента
+    //         $(".product__inner").css("opacity", "0");
+    //         $(".product__block img").css("transform", "scale(1)");
+    //         $(".product__block img").css("transition", "0.4s");
+    //     }
+    // );
 
-    $(".product__block2").hover(
-        function () {
-            // задаем функцию при наведении курсора на элемент
+    // $(".product__block2").hover(
+    //     function () {
+    //         // задаем функцию при наведении курсора на элемент
 
-            $(".product__inner2").css("opacity", "1");
-            $(".product__block2 img").css("transform", "scale(1.1)");
-            $(".product__block2 img").css("transition", "0.4s");
-        },
-        function () {
-            // задаем функцию, которая срабатывает, когда указатель выходит из элемента
-            $(".product__inner2").css("opacity", "0");
-            $(".product__block2 img").css("transform", "scale(1)");
-            $(".product__block2 img").css("transition", "0.4s");
-        }
-    );
+    //         $(".product__inner2").css("opacity", "1");
+    //         $(".product__block2 img").css("transform", "scale(1.1)");
+    //         $(".product__block2 img").css("transition", "0.4s");
+    //     },
+    //     function () {
+    //         // задаем функцию, которая срабатывает, когда указатель выходит из элемента
+    //         $(".product__inner2").css("opacity", "0");
+    //         $(".product__block2 img").css("transform", "scale(1)");
+    //         $(".product__block2 img").css("transition", "0.4s");
+    //     }
+    // );
 
-    $(".product__block3").hover(
-        function () {
-            // задаем функцию при наведении курсора на элемент
+    // $(".product__block3").hover(
+    //     function () {
+    //         // задаем функцию при наведении курсора на элемент
 
-            $(".product__inner3").css("opacity", "1");
-            $(".product__block3 img").css("transform", "scale(1.1)");
-            $(".product__block3 img").css("transition", "0.4s");
-        },
-        function () {
-            // задаем функцию, которая срабатывает, когда указатель выходит из элемента
-            $(".product__inner3").css("opacity", "0");
-            $(".product__block3 img").css("transform", "scale(1)");
-            $(".product__block3 img").css("transition", "0.4s");
-        }
-    );
+    //         $(".product__inner3").css("opacity", "1");
+    //         $(".product__block3 img").css("transform", "scale(1.1)");
+    //         $(".product__block3 img").css("transition", "0.4s");
+    //     },
+    //     function () {
+    //         // задаем функцию, которая срабатывает, когда указатель выходит из элемента
+    //         $(".product__inner3").css("opacity", "0");
+    //         $(".product__block3 img").css("transform", "scale(1)");
+    //         $(".product__block3 img").css("transition", "0.4s");
+    //     }
+    // );
 
-    $(".product__block4").hover(
-        function () {
-            // задаем функцию при наведении курсора на элемент
+    // $(".product__block4").hover(
+    //     function () {
+    //         // задаем функцию при наведении курсора на элемент
 
-            $(".product__inner4").css("opacity", "1");
-            $(".product__block4 img").css("transform", "scale(1.1)");
-            $(".product__block4 img").css("transition", "0.4s");
-        },
-        function () {
-            // задаем функцию, которая срабатывает, когда указатель выходит из элемента
-            $(".product__inner4").css("opacity", "0");
-            $(".product__block4 img").css("transform", "scale(1)");
-            $(".product__block4 img").css("transition", "0.4s");
-        }
-    );
+    //         $(".product__inner4").css("opacity", "1");
+    //         $(".product__block4 img").css("transform", "scale(1.1)");
+    //         $(".product__block4 img").css("transition", "0.4s");
+    //     },
+    //     function () {
+    //         // задаем функцию, которая срабатывает, когда указатель выходит из элемента
+    //         $(".product__inner4").css("opacity", "0");
+    //         $(".product__block4 img").css("transform", "scale(1)");
+    //         $(".product__block4 img").css("transition", "0.4s");
+    //     }
+    // );
 
-    $(".product__block5").hover(
-        function () {
-            // задаем функцию при наведении курсора на элемент
+    // $(".product__block5").hover(
+    //     function () {
+    //         // задаем функцию при наведении курсора на элемент
 
-            $(".product__inner5").css("opacity", "1");
-            $(".product__block5 img").css("transform", "scale(1.1)");
-            $(".product__block5 img").css("transition", "0.4s");
-        },
-        function () {
-            // задаем функцию, которая срабатывает, когда указатель выходит из элемента
-            $(".product__inner5").css("opacity", "0");
-            $(".product__block5 img").css("transform", "scale(1)");
-            $(".product__block5 img").css("transition", "0.4s");
-        }
-    );
+    //         $(".product__inner5").css("opacity", "1");
+    //         $(".product__block5 img").css("transform", "scale(1.1)");
+    //         $(".product__block5 img").css("transition", "0.4s");
+    //     },
+    //     function () {
+    //         // задаем функцию, которая срабатывает, когда указатель выходит из элемента
+    //         $(".product__inner5").css("opacity", "0");
+    //         $(".product__block5 img").css("transform", "scale(1)");
+    //         $(".product__block5 img").css("transition", "0.4s");
+    //     }
+    // );
 
-    $(".product__block6").hover(
-        function () {
-            // задаем функцию при наведении курсора на элемент
+    // $(".product__block6").hover(
+    //     function () {
+    //         // задаем функцию при наведении курсора на элемент
 
-            $(".product__inner6").css("opacity", "1");
-            $(".product__block6 img").css("transform", "scale(1.1)");
-            $(".product__block6 img").css("transition", "0.4s");
-        },
-        function () {
-            // задаем функцию, которая срабатывает, когда указатель выходит из элемента
-            $(".product__inner6").css("opacity", "0");
-            $(".product__block6 img").css("transform", "scale(1)");
-            $(".product__block6 img").css("transition", "0.4s");
-        }
-    );
+    //         $(".product__inner6").css("opacity", "1");
+    //         $(".product__block6 img").css("transform", "scale(1.1)");
+    //         $(".product__block6 img").css("transition", "0.4s");
+    //     },
+    //     function () {
+    //         // задаем функцию, которая срабатывает, когда указатель выходит из элемента
+    //         $(".product__inner6").css("opacity", "0");
+    //         $(".product__block6 img").css("transform", "scale(1)");
+    //         $(".product__block6 img").css("transition", "0.4s");
+    //     }
+    // );
 
     $(".category__img").hover(
         function () {

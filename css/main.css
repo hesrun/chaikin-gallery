@@ -142,6 +142,7 @@ header {
     position: relative;
     padding: 61px 0 0 0;
     height: 100%;
+    z-index: 1;
 }
 
 .container {
@@ -225,7 +226,7 @@ header {
 }
 
 .header__block2 .reg:hover {
-    background: #000;
+    background-color: #000;
     border-radius: 50%;
 }
 
@@ -287,7 +288,7 @@ header {
 
 .clock__img {
     margin: -140px -100px 0 0;
-    width: 500px;
+    width: 350px;
     transition: all 0.6s ease 0s;
 }
 
@@ -1001,6 +1002,16 @@ footer {
     transition: all 3s ease;
 }
 
+[class^="product__block"]:hover [class^="product__inner"] {
+    opacity: 1;
+}
+[class^="product__block"] img {
+    transition: all 0.3s;
+}
+[class^="product__block"]:hover img {
+    transform: scale(1.1);
+}
+
 .pr__inner_btn span {
     font-family: "OktaNeue-Regular";
 }
@@ -1204,11 +1215,15 @@ footer {
     border-radius: 50%;
     margin: 6px 0 0 100px !important;
     justify-content: center;
-    background: url(../images/profile-icon.svg) 50% 50% no-repeat;
+    background-image: url(../images/profile-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
 }
 
 .profile:hover {
-    background: #000 url(../images/profile-hover.svg) 50% 50% no-repeat;
+    background-image: url(../images/profile-hover.svg);
+    background-color: black;
     transition: 0.3s;
 }
 
@@ -2660,6 +2675,7 @@ footer {
 .slide__img {
     cursor: pointer;
     position: relative;
+    max-width: 600px;
 }
 
 .slide__img .c-button {
@@ -3391,7 +3407,7 @@ dialog::backdrop {
     top: 5px;
     width: 100%;
     overflow-y: scroll;
-    height: 200px;
+    height: 145px;
     list-style: none;
     background: #e7e1d8;
     border: 1px solid #020202;
