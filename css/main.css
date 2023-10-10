@@ -1,9 +1,31 @@
 :root {
     --main-bg: #E7E1D8;
     --fancybox-zIndex: 9999999;
+    --font-300: "OktaNeue-Light";
+    --font-400: "OktaNeue-Regular";
+}
+@font-face {
+    font-family: "OktaNeue-Light";
+    src: url("../fonts/OktaNeue-Light.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
+    font-family: "OktaNeue-Regular";
+    src: url("../fonts/OktaNeue-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OktaNeue-Bold";
+    src: url("../fonts/OktaNeue-Bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @font-face {
     font-family: "OktaNeue-Light";
     src: url("../fonts/OktaNeue-Light.eot?-kwf309");
     src: url("../fonts/OktaNeue-Light.eot?#iefix-kwf309")
@@ -39,7 +61,7 @@
         url("../fonts/OktaNeue-Bold.svg?-kwf309#AA-OktaNeue-Bold") format("svg");
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 @font-face {
     font-family: "tenorsans";
@@ -1662,6 +1684,10 @@ footer {
     padding: 2px 0 0px 47px;
 }
 
+.slide__product-info {
+    font-family: var(--font-300);
+}
+
 .slide__time_wrap {
     display: flex;
     padding: 19px 0 0 0;
@@ -2673,7 +2699,6 @@ footer {
 }
 
 .slide__img {
-    cursor: pointer;
     position: relative;
     max-width: 600px;
 }
@@ -3781,6 +3806,9 @@ dialog::backdrop {
 }
 
 /* -------------------------- biddings rules modal -------------------------- */
+.bidding-works {
+    font-family: var(--font-300);
+}
 .bidding-works p {
     margin: 1.5rem 0;
 }
@@ -3942,4 +3970,14 @@ dialog::backdrop {
 .slider-for__pagination .slick-dots li.slick-active button:after {
     opacity: 1;
     transform: translateX(-50%) scale(1);
+}
+
+.modal-video {
+    position: fixed;
+    inset: 0;
+}
+.modal-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

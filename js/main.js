@@ -16,8 +16,8 @@ $(document).ready(function () {
 
     // Onclick on a dropdown, toggle visibility
     dropdowns.find("dt").click(function () {
-        dropdowns.find("dd ul").hide();
-        $(this).next().children().toggle();
+        $(this).next().find('ul').toggle();
+        
     });
 
     // Clic handler for dropdown
@@ -257,8 +257,10 @@ $(document).ready(function () {
         }
     );
 
+
     let triggersModal = document.querySelectorAll(".js-show-modal");
     let modals = document.querySelectorAll(".js-modal");
+    
 
     function closeModal() {
         modals.forEach((modal) => {
@@ -291,6 +293,20 @@ $(document).ready(function () {
         })
     );
 
+    /* --------------------- video modal --------------------- */ 
+
+    let videoModal = document.querySelectorAll("#videoModal");
+    var video = document.getElementById("video");
+
+    $('.js-show-modal').click(() => {
+        if ($('#videoModal').hasClass('is-open')) {
+            video.play()
+        }
+    })
+    $('#videoModal .js-close-modal').click(() => {
+        video.pause();
+        video.currentTime = 0;
+    })
 
     /* --------------------- тут исправил инциализацию слайдера --------------------- */ 
 
