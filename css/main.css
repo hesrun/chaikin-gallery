@@ -484,7 +484,8 @@ footer {
     text-transform: uppercase;
 }
 
-.modal {
+.modal,
+.modal2 {
     position: fixed;
     top: 0px;
     z-index: 9000;
@@ -511,7 +512,8 @@ footer {
     transform: translateY(0);
 }
 
-.modal {
+.modal,
+.modal2 {
     background: #000000;
 }
 
@@ -1024,14 +1026,17 @@ footer {
     transition: all 3s ease;
 }
 
-[class^="product__block"]:hover [class^="product__inner"] {
-    opacity: 1;
+@media (hover: hover) {
+    [class^="product__block"]:hover [class^="product__inner"] {
+        opacity: 1;
+    }
+    [class^="product__block"]:hover img {
+        transform: scale(1.1);
+    }
 }
+
 [class^="product__block"] img {
     transition: all 0.3s;
-}
-[class^="product__block"]:hover img {
-    transform: scale(1.1);
 }
 
 .pr__inner_btn span {

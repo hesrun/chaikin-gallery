@@ -338,7 +338,9 @@
 
 /* Ipad*/ 
 @media screen and (max-width: 850px) {
-
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
     .category__inner {
         text-align: right;
         padding: 0 0px 0 0px;
@@ -485,7 +487,7 @@
     }
 
     .product {
-        padding: 30px 0 55px 0;
+        padding: 30px 0 30px 0;
     }
 
     
@@ -558,6 +560,9 @@
         margin: 0 0 30px 0;
         overflow: hidden;
         padding: 0 15px 0 15px;
+    }
+    .product__block_in:last-child {
+        margin-bottom: 0;
     }
 
     .slide__text2 {
@@ -1353,7 +1358,7 @@
     .slide__how {
         font-size: 12px;
         display: block;
-        margin: -4px 0 0 0;
+        margin: -4px 0 30px 0;
         line-height: 19px;
         font-family: 'OktaNeue-Regular';
         text-decoration-line: underline;
@@ -1457,7 +1462,7 @@
 
     .custom-select_inner2 {
         width: 50% !important;
-        margin: 5px 0 0 0px;
+        margin: 15px 0 0 0px;
     }
 
     .h2__mobile2 {
@@ -1859,6 +1864,14 @@
 
     .modal__block img {
         width: 60%;
+    }
+
+    .checkbox__wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+    .checkbox__wrap .form_radio {
+        margin: 0;
     }
 }
 
